@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public List<User> findByEmail(String email) {
-        List<User> users = repository.findByEmailId(email);
-        return users;
+       return repository.findByEmailId(email);
+
     }
 }
