@@ -36,7 +36,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v5
       name : Build & push  image
       with:
-        image: manarrdev/aws-gitflow
+        image: manarrdev/aws-gitflow-SNAPSHOT
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
