@@ -117,7 +117,7 @@
 				<version>3.0.2</version>
 			</plugin>
 		</plugins>
-		<finalName>aws-gitflow</finalName>
+		<finalName>aws-gitflow-SNAPSHOT</finalName>
 	</build>
 <!--	<repositories>-->
 <!--		<repository>-->
